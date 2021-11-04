@@ -13,11 +13,11 @@ import java.io.IOException;
 import java.util.Iterator;
 
 public class Test {
-    private static final String prefix = "A:\\work\\mga\\export";
+    private static final String prefix = "A:\\work\\";
     private static final String postfix = ".xls";
 
-    private static final String nameFile1 = prefix + "\\tornament_30_old" + postfix;
-    private static final String nameFile2 = prefix + "\\default_tornament_30_new" + postfix;
+    private static final String nameFile1 = prefix + "\\old" + postfix;
+    private static final String nameFile2 = prefix + "\\new" + postfix;
 
     public static void main(String[] args) throws Exception {
 
